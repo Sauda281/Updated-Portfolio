@@ -1,0 +1,77 @@
+.navbar-brand {
+    /* width: 150px; */
+    /* height: 100px; */
+    border: solid teal;
+    background: teal;
+    text-align: center;
+    font-family: cursive;
+    font-size: 2em;
+    display: inline block;
+}
+
+.nav-item {
+    float: right;
+}
+
+.container {
+    width: 960px;
+    height: 420px;
+    margin: 75px;
+    margin-right: auto;
+    margin-left: auto;
+    border: solid thistle;
+    background-color: thistle;
+    /* float: right; */
+}
+
+.jumbotron {
+    background-color: wheat;
+}
+
+#content {
+     font-family: cursive;
+     color: black;
+}
+
+p {
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 0;
+    text-align: justify;
+    line-height: 1.5em;
+    color: black;
+    font-family: cursive;
+}
+
+#img{
+    width: 25%;
+	height: auto;
+	float: left;
+	margin-right:2rem; 
+	border-radius: 50%;
+	shape-outside:circle();
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-style: inset;
+    border-width: 1px;
+    border-color: dodgerblue;
+}
+
+body {
+    /* width: 960px; */
+    /* margin: 20px; */
+    padding: 50px;
+}
+
+/* .navbar { */
+    position: relative;
+    /* margin-top: 2px; */
+    height: 55px;
+}
