@@ -1,6 +1,9 @@
+body { 
+    background: url("https://images.unsplash.com/photo-1579636062013-c84be841e655?ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80") no-repeat center center fixed;
+    background-size: cover;
+}
+
 .navbar-brand {
-    /* width: 150px; */
-    /* height: 100px; */
     border: solid teal;
     background: teal;
     text-align: center;
@@ -9,23 +12,15 @@
     display: inline block;
 }
 
-.nav-item {
-    float: right;
-}
-
 .container {
     width: 960px;
     height: 420px;
     margin: 75px;
     margin-right: auto;
     margin-left: auto;
-    border: solid thistle;
-    background-color: thistle;
-    /* float: right; */
-}
-
-.jumbotron {
+    border: solid wheat;
     background-color: wheat;
+    /* opacity: 0.8; */
 }
 
 #content {
@@ -61,17 +56,9 @@ hr {
     margin-right: 5%;
     border-style: inset;
     border-width: 1px;
-    border-color: dodgerblue;
+    border-color: teal;
 }
 
-body {
-    /* width: 960px; */
-    /* margin: 20px; */
-    padding: 50px;
-}
-
-/* .navbar { */
-    position: relative;
-    /* margin-top: 2px; */
-    height: 55px;
+.collapse navbar-collapse {
+    float: right;
 }
